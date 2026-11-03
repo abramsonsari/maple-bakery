@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h1{
+    background-color: whitesmoke;
+    color: #0f172a;
+    font-size: 2rem;
+}
+
+body{
+    background-color: whitesmoke;
+    color: #334155;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: Verdana, sans-serif;
+}
+
+a, button {
+    background-color: whitesmoke;
+    color: #6d28d9;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+@media (min-width: 700px){
+     main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid darkmagenta;
+
+}
